@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springjdbctemplateexample.repository.StudentJdbcTemplateRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-02T08:32:33" hostname="DESKTOP-SUK01N3" time="15.628">
+  <properties/>
+  <testcase name="selectTest()" classname="org.example.springjdbctemplateexample.repository.StudentJdbcTemplateRepositoryTest" time="15.628"/>
+  <system-out><![CDATA[17:32:11.414 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.springjdbctemplateexample.repository.StudentJdbcTemplateRepositoryTest]: StudentJdbcTemplateRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:32:13.023 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.springjdbctemplateexample.SpringJdbctemplateExampleApplication for test class org.example.springjdbctemplateexample.repository.StudentJdbcTemplateRepositoryTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-02T17:32:18.899+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] .e.s.r.StudentJdbcTemplateRepositoryTest : Starting StudentJdbcTemplateRepositoryTest using Java 17.0.10 with PID 9644 (started by LG in C:\Users\LG\Desktop\나영\spring-jdbctemplate-example)
+2024-07-02T17:32:18.905+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] .e.s.r.StudentJdbcTemplateRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:32:33.115+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] .e.s.r.StudentJdbcTemplateRepositoryTest : Started StudentJdbcTemplateRepositoryTest in 18.477 seconds (process running for 29.59)
+2024-07-02T17:32:45.014+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-02T17:32:48.420+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@248b2b61
+2024-07-02T17:32:48.457+09:00  INFO 9644 --- [spring-jdbctemplate-example] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+1 오르미 20 경기도
+2 한빛 25 충청도
+4 장이수 40 제주도
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
